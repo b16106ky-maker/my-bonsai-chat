@@ -21,7 +21,7 @@ while True:
     messages = [messages[0]] + messages[-1:]
 
     resp = client.chat.completions.create(
-        model="bonsai",
+        model="bonsai" ,
         messages=messages,
         temperature=0.9
     )
